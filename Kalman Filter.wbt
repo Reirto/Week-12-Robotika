@@ -1,0 +1,42 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/bounding_objects/protos/PipeBoundingObject.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.20013513191675072 -0.27629441623440026 0.9400038960187117 4.970105429086656
+  position -1.2878490581730397 3.583224659891172 1.7000754923662782
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  rotation 0 0 1 0.261799
+  floorSize 2 2
+}
+E-puck {
+  hidden position_0_0 64.88408224179203
+  hidden position_0_1 64.88408223239308
+  hidden linearVelocity_0 0.00010214315117430116 -1.7423239770909863e-09 4.178173887088185e-08
+  hidden angularVelocity_0 1.1615331173117182e-07 0.006809465321142862 -1.785642601566006e-13
+  hidden rotation_1 0 1 0 2.0522291699961643
+  hidden linearVelocity_1 0.00013618967344366736 -2.32307405219835e-09 7.838263369833867e-12
+  hidden angularVelocity_1 1.1615287304098674e-07 0.006809465336410601 -2.4927445231199895e-10
+  hidden rotation_2 0 1 0 2.052229160597219
+  hidden linearVelocity_2 0.00013618967393479086 -2.3230797077279027e-09 7.101785833038206e-12
+  hidden angularVelocity_2 1.1615410371107293e-07 0.0068094653364301405 2.489165623882288e-10
+  translation -0.3271042972437693 -0.019989631123202196 -6.394747444929925e-05
+  rotation 0.0006227071327662065 -5.87560591120744e-09 0.9999998061178947 3.1415755938440757
+  controller "KalmanFilter"
+}
+PipeBoundingObject {
+  translation -0.5 0 0.1
+  height 0.3
+  radius 0.1
+}
